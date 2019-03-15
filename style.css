@@ -1,0 +1,103 @@
+/*colors*/
+/*with colorzilla picker and coolors*/
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Lora', serif;
+  color: #575F7D;
+}
+h1, h2, a {
+font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+ color: #575F7D;
+ font-size: 32px;
+ font-weight: 900;
+}
+
+h2 {
+  color: #2EE3CA;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+a  {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+/*id and classes*/
+.container {
+  width: 900px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  margin: 30px 0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(84,134,255,0.1);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.btn-purple {
+  padding: 15px 20px;
+  color: white;
+  background-color:#6B72E1;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.btn-purple:hover {
+   background-color: #2EE3CA;
+}
+
+.list-inline {
+  padding: 0px;
+}
+.list-inline li {
+  display: inline;
+  margin-right: 20px;
+
+}
+.list-inline i {
+  color: lightgrey;
+  font-size: 30px;
+}
+
+.list-inline i:hover {
+  color: #575F7D;
+}
+
+.small-margin-bottom {
+  margin-bottom: 40px;
+}
+
+/*media queries*/
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
